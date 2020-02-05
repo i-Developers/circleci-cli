@@ -105,6 +105,7 @@ func MakeCommands() *cobra.Command {
 	rootCmd.DisableAutoGenTag = true
 
 	rootCmd.AddCommand(newTestsCommand())
+	rootCmd.AddCommand(newContextCommand(rootOptions))
 	rootCmd.AddCommand(newQueryCommand(rootOptions))
 	rootCmd.AddCommand(newConfigCommand(rootOptions))
 	rootCmd.AddCommand(newOrbCommand(rootOptions))

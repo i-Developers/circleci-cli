@@ -19,6 +19,7 @@ require (
 	github.com/lunixbochs/vtclean v0.0.0-20170504063817-d14193dfc626 // indirect
 	github.com/manifoldco/promptui v0.3.0
 	github.com/mitchellh/mapstructure v1.1.2
+	github.com/olekukonko/tablewriter v0.0.4
 	github.com/onsi/ginkgo v1.7.0
 	github.com/onsi/gomega v1.4.3
 	github.com/pkg/errors v0.8.0
